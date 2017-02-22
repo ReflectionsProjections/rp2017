@@ -5,12 +5,12 @@ Reflections | Projections 2017
 [drive.google] (https://drive.google.com/open?id=0B7yIdppNWGx7cVFaQm5xUEcwRWM)
 ### [View Full Style Guide](https://drive.google.com/open?id=0B7yIdppNWGx7OFVZaFdpSTBuOUk)
 
-#### [Download Typefaces](https://drive.google.com/open?id=0B7yIdppNWGx7SXdzOWdQZ2pIcFE)
+### [Download Typefaces](https://drive.google.com/open?id=0B7yIdppNWGx7SXdzOWdQZ2pIcFE)
  - Roboto (Sans-serif)
  - Roboto Slab
  - Roboto Mono
     
-#### [View Full Color Guide] (https://drive.google.com/open?id=0B7yIdppNWGx7LTBacWdkcGI2ZlE)
+### [View Full Color Guide] (https://drive.google.com/open?id=0B7yIdppNWGx7LTBacWdkcGI2ZlE)
 ![colorsbrief] (http://i.imgur.com/jYqzH2t.png)
 ```
   ~ primary colors
