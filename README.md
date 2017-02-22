@@ -20,8 +20,8 @@ Reflections | Projections 2017
   - black       #000000     rgb(0,0,0);          Pantone Solid Coated Neutral Black C
   
   ~ secondary colors 
-  - red 0       #e91d29     rgb(233,29,41);      Pantone Solid Coated 185 C
-  - red 1       #cb2027     rgb(203,32,29);      Pantone Solid Coated 186 C
+  - red 0       #e91d29     rgb(233,29,41);      Pantone Solid Coated  185 C
+  - red 1       #cb2027     rgb(203,32,29);      Pantone Solid Coated  186 C
   - red 3       #a01d21     rgb(160,29,33);      Pantone Solid Coated 7628 C
   - red 4       #8f191c     rgb(143,25,28);      Pantone Solid Coated 7623 C
   - cool grey   #a0a3af     rgb(160,163,175);    Pantone Solid Coated 1815 C
