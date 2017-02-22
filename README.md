@@ -1,4 +1,4 @@
-#rp2017 readme
+#rp2017
 Reflections | Projections 2017
   
 ## Design
