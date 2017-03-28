@@ -26,7 +26,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Design 
-[drive.google] (https://drive.google.com/open?id=0B7yIdppNWGx7cVFaQm5xUEcwRWM)
+[Design Drive](https://drive.google.com/open?id=0B7yIdppNWGx7cVFaQm5xUEcwRWM)
 ### [View Full Style Guide](https://drive.google.com/open?id=0B7yIdppNWGx7OFVZaFdpSTBuOUk)
 
 ### [Download Typefaces](https://drive.google.com/open?id=0B7yIdppNWGx7SXdzOWdQZ2pIcFE)
@@ -34,8 +34,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
  - Roboto Slab
  - Roboto Mono
     
-### [View Full Color Guide] (https://drive.google.com/open?id=0B7yIdppNWGx7LTBacWdkcGI2ZlE)
-![colorsbrief] (http://i.imgur.com/jYqzH2t.png)
+### [View Full Color Guide](https://drive.google.com/open?id=0B7yIdppNWGx7LTBacWdkcGI2ZlE)
+
+
+![colorsbrief](http://i.imgur.com/jYqzH2t.png)
 ```
   ~ primary colors
   - red 2       #b32024     rgb(179,32,36);      Pantone Solid Coated 7621 C
