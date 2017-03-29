@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
-$bg: #7A1216;
+$bg: #0c202b;
 
 body {
 
@@ -48,6 +48,8 @@ p {
 
   width: 100%;
   height: 100vh;
+  background-image: url('./assets/background-overlay.svg');
+  background-size: cover;
   background-color: $bg;
   color: white;
   position: relative;
