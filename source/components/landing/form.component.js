@@ -22,7 +22,7 @@ class Form extends Component {
                 <br />
 
                 <div id="mc_embed_signup">
-                    <form action="//uiuc.us4.list-manage.com/subscribe/post?u=0628ea3ae6ae669985da21668&amp;id=9880231267" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate >
+                    <form action="//uiuc.us4.list-manage.com/subscribe/post?u=0628ea3ae6ae669985da21668&amp;id=9880231267" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate onSubmit={e => (this.submit(this.props.next.bind(this.props, e)))}>
                         <div id="mc_embed_signup_scroll">
 
                             <div className="mc-field-group">

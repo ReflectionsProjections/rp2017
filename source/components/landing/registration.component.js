@@ -19,12 +19,15 @@ class Registration extends Component {
     }
 
     nextStep(event) {
+        event.preventDefault();
 
         this.setState({
             step : this.state.step + 1
         });
 
-        event.preventDefault();
+        if (event.target.nodeName === "FORM") {
+            event.target.submit()
+        }
     }
 
     restart() {
