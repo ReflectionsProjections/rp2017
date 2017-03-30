@@ -1,0 +1,24 @@
+.registration-email {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 2em;
+  box-sizing: border-box;
+  max-width: 768px;
+}
+
+.safety {
+  position: absolute; left: -5000px;
+}
+
+.response {
+  display:none;
+}
+
+@media (max-width: 768px) {
+
+  .registration-email {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+}

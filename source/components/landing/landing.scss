@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
+
+$bg: #0c202b;
+
+.button {
+  font-family: 'Roboto Slab', serif;
+  background-color: #B32024;
+  padding: 1em 4em;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+  border:none;
+  display: inline-block;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.landing {
+
+  font-family: 'Roboto Slab', serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/svg/background-overlay.svg');
+  background-size: cover;
+  background-color: $bg;
+  color: white;
+  position: relative;
+
+  .hero-header {
+
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+    height: 60vh;
+
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .hero-item {
+      flex-basis: 33%;
+      flex-grow: 1;
+      flex-shrink: 1;
+      position: relative;
+      height: 100%;
+
+      img {
+        width: 100%;
+      }
+
+      .hero-item-title {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        h1 {
+          font-size: 3em;
+        }
+        img {
+          width: 85%;
+        }
+      }
+
+    }
+
+    .left {
+      text-align: right;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      text-align: left;
+    }
+  }
+
+}
+
+.responsive-container {
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+@media (min-width: 768px) {
+
+  .responsive-container {
+    width: 750px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .left, .right {
+    display: none;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+
+  .desktop {
+    display: none;
+  }
+
+  .hero-header {
+    height: 30vh;
+  }
+
+  .registration {
+    height: 70vh;
+  }
+
+  .hero-item-title {
+    img {
+
+    }
+  }
+}
+
+@media (min-width: 992px) {
+
+  .responsive-container {
+    width: 970px;
+  }
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+  .responsive-container {
+    width: 1170px;
+  }
+
+}
