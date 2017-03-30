@@ -721,6 +721,7 @@ var App = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landing2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/test', component: App }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/sponsor', component: SponsorLetter })
     )
 ), document.getElementById('app'));
