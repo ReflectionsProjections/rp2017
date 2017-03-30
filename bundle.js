@@ -715,7 +715,7 @@ var App = function (_React$Component) {
 }(_react2.default.Component);
 
 (0, _reactDom.render)(_react2.default.createElement(
-    _reactRouterDom.BrowserRouter,
+    _reactRouterDom.HashRouter,
     null,
     _react2.default.createElement(
         'div',
