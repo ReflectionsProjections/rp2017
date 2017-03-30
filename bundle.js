@@ -682,6 +682,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // Components
 
 
+// PDFs
+var SponsorLetter = function SponsorLetter() {
+    window.location = './assets/files/corporate.pdf';
+    return null;
+};
+
 __webpack_require__(237);
 __webpack_require__(244);
 
@@ -714,7 +720,8 @@ var App = function (_React$Component) {
     _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landing2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landing2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/sponsor', component: SponsorLetter })
     )
 ), document.getElementById('app'));
 
