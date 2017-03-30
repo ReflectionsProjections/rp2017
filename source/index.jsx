@@ -28,6 +28,7 @@ render(
     <Router>
         <div>
             <Route exact path="/" component={Landing}/>
+            <Route path="/test" component={App} />
             <Route path="/sponsor" component={SponsorLetter}/>
         </div>
     </Router>,
