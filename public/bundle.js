@@ -906,6 +906,8 @@ var Form = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
+            var _this2 = this;
+
             return _react2.default.createElement(
                 'div',
                 { className: 'registration' },
@@ -920,7 +922,9 @@ var Form = function (_Component) {
                     { id: 'mc_embed_signup' },
                     _react2.default.createElement(
                         'form',
-                        { action: '//uiuc.us4.list-manage.com/subscribe/post?u=0628ea3ae6ae669985da21668&id=9880231267', method: 'post', id: 'mc-embedded-subscribe-form', name: 'mc-embedded-subscribe-form', className: 'validate', target: '_blank', noValidate: true },
+                        { action: '//uiuc.us4.list-manage.com/subscribe/post?u=0628ea3ae6ae669985da21668&id=9880231267', method: 'post', id: 'mc-embedded-subscribe-form', name: 'mc-embedded-subscribe-form', className: 'validate', target: '_blank', noValidate: true, onSubmit: function onSubmit(e) {
+                                return _this2.submit(_this2.props.next.bind(_this2.props, e));
+                            } },
                         _react2.default.createElement(
                             'div',
                             { id: 'mc_embed_signup_scroll' },
@@ -1203,12 +1207,15 @@ var Registration = function (_Component) {
     _createClass(Registration, [{
         key: 'nextStep',
         value: function nextStep(event) {
+            event.preventDefault();
 
             this.setState({
                 step: this.state.step + 1
             });
 
-            event.preventDefault();
+            if (event.target.nodeName === "FORM") {
+                event.target.submit();
+            }
         }
     }, {
         key: 'restart',
