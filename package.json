@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack",
-    "dev": "webpack-dev-server --content-base public/ --history-api-fallback"
+    "dev": "webpack-dev-server --content-base public/ --history-api-fallback",
+    "deploy": "git subtree push --prefix public origin gh-pages"
   },
   "author": "Simon Lu",
   "license": "ISC",
