@@ -6,6 +6,13 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './components/home/home';
 import Landing from './components/landing/landing';
 
+
+// PDFs
+const SponsorLetter = () => {
+    window.location = './assets/files/corporate.pdf';
+    return null;
+};
+
 require('normalize.css');
 require('./styles/main.scss');
 
@@ -21,6 +28,7 @@ render(
     <Router>
         <div>
             <Route exact path="/" component={Landing}/>
+            <Route path="/sponsor" component={SponsorLetter}/>
         </div>
     </Router>,
     document.getElementById('app')
