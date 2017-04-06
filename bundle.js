@@ -684,7 +684,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 // PDFs
 var SponsorLetter = function SponsorLetter() {
-    window.location = './assets/files/corporate.pdf';
+    window.location = './assets/files/sponsor.pdf';
+    return null;
+};
+
+var StartupLetter = function StartupLetter() {
+    window.location = './assets/files/startup.pdf';
     return null;
 };
 
@@ -722,7 +727,8 @@ var App = function (_React$Component) {
         null,
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _landing2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/test', component: App }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/sponsor', component: SponsorLetter })
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/sponsor', component: SponsorLetter }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/startup', component: StartupLetter })
     )
 ), document.getElementById('app'));
 
@@ -1095,7 +1101,7 @@ var Landing = function (_Component) {
                 { className: 'landing' },
                 _react2.default.createElement(
                     'div',
-                    { className: 'hero' },
+                    { id: 'hero', className: 'hero' },
                     _react2.default.createElement(
                         'div',
                         { className: 'hero-header' },
@@ -3420,7 +3426,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,300);", ""]);
 
 // module
-exports.push([module.i, ".button {\n  font-family: 'Roboto Slab', serif;\n  background-color: #B32024;\n  padding: 1em 4em;\n  border-radius: 5px;\n  color: rgba(255, 255, 255, 0.8);\n  letter-spacing: 2px;\n  border: none;\n  display: inline-block;\n  font-size: inherit;\n  box-sizing: border-box; }\n\n.button:hover {\n  cursor: pointer; }\n\n.landing {\n  font-family: 'Roboto Slab', serif;\n  width: 100%;\n  height: 100vh;\n  background-image: url(\"../../assets/svg/background-overlay.svg\");\n  background-size: cover;\n  background-color: #0c202b;\n  color: white;\n  position: relative; }\n  .landing .hero-header {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    width: 80%;\n    margin: 0 10%;\n    height: 60vh; }\n    .landing .hero-header img {\n      width: 100%;\n      max-width: 500px; }\n    .landing .hero-header .hero-item {\n      -ms-flex-preferred-size: 33%;\n      flex-basis: 33%;\n      -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n      flex-grow: 1;\n      -ms-flex-negative: 1;\n      flex-shrink: 1;\n      position: relative;\n      height: 100%; }\n      .landing .hero-header .hero-item img {\n        width: 100%; }\n      .landing .hero-header .hero-item .hero-item-title {\n        position: absolute;\n        top: 50%;\n        -webkit-transform: translateY(-50%);\n        transform: translateY(-50%);\n        width: 100%; }\n        .landing .hero-header .hero-item .hero-item-title h1 {\n          font-size: 3em; }\n        .landing .hero-header .hero-item .hero-item-title img {\n          width: 85%; }\n    .landing .hero-header .left {\n      text-align: right; }\n    .landing .hero-header .center {\n      text-align: center; }\n    .landing .hero-header .right {\n      text-align: left; }\n\n.responsive-container {\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 768px) {\n  .responsive-container {\n    width: 750px; }\n  .mobile {\n    display: none; } }\n\n@media (max-width: 768px) {\n  .left, .right {\n    display: none; }\n  .center {\n    text-align: center; }\n  p {\n    font-size: 0.9em; }\n  .desktop {\n    display: none; }\n  .hero-header {\n    height: 20vh; } }\n\n@media (min-width: 992px) {\n  .responsive-container {\n    width: 970px; } }\n\n@media (min-width: 1200px) {\n  .responsive-container {\n    width: 1170px; } }\n", ""]);
+exports.push([module.i, ".button {\n  font-family: 'Roboto Slab', serif;\n  background-color: #B32024;\n  padding: 1em 4em;\n  border-radius: 5px;\n  color: rgba(255, 255, 255, 0.8);\n  letter-spacing: 2px;\n  border: none;\n  display: inline-block;\n  font-size: inherit;\n  box-sizing: border-box; }\n\n.button:hover {\n  cursor: pointer; }\n\n.landing {\n  font-family: 'Roboto Slab', serif;\n  width: 100%;\n  height: calc(100vh - 2em);\n  padding-bottom: 2em;\n  background-image: url(\"../../assets/svg/background-overlay.svg\");\n  background-size: cover;\n  background-color: #0c202b;\n  color: white;\n  position: relative; }\n  .landing .hero-header {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    width: 80%;\n    margin: 0 10%;\n    height: 60vh; }\n    .landing .hero-header img {\n      width: 100%;\n      max-width: 500px; }\n    .landing .hero-header .hero-item {\n      -ms-flex-preferred-size: 33%;\n      flex-basis: 33%;\n      -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n      flex-grow: 1;\n      -ms-flex-negative: 1;\n      flex-shrink: 1;\n      position: relative;\n      height: 100%; }\n      .landing .hero-header .hero-item img {\n        width: 100%; }\n      .landing .hero-header .hero-item .hero-item-title {\n        position: absolute;\n        top: 50%;\n        -webkit-transform: translateY(-50%);\n        transform: translateY(-50%);\n        width: 100%; }\n        .landing .hero-header .hero-item .hero-item-title h1 {\n          font-size: 3em; }\n        .landing .hero-header .hero-item .hero-item-title img {\n          width: 85%; }\n    .landing .hero-header .left {\n      text-align: right; }\n    .landing .hero-header .center {\n      text-align: center; }\n    .landing .hero-header .right {\n      text-align: left; }\n\n.responsive-container {\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n@media (min-width: 768px) {\n  .responsive-container {\n    width: 750px; }\n  .mobile {\n    display: none; } }\n\n@media (max-width: 768px) {\n  .left, .right {\n    display: none; }\n  .center {\n    text-align: center; }\n  p {\n    font-size: 0.9em; }\n  .desktop {\n    display: none; }\n  .hero-header {\n    height: 20vh; } }\n\n@media (min-width: 992px) {\n  .responsive-container {\n    width: 970px; } }\n\n@media (min-width: 1200px) {\n  .responsive-container {\n    width: 1170px; } }\n", ""]);
 
 // exports
 
