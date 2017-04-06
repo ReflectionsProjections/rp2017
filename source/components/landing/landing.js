@@ -5,10 +5,11 @@ import Registration from './registration.component'
 import styles from './landing.scss'
 
 class Landing extends Component {
+
     render() {
         return(
             <div className="landing">
-                <div className="hero">
+                <div id="hero" className="hero">
                     <div className="hero-header">
                         <div className="hero-item left">
                             <div className="hero-item-title">

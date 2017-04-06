@@ -9,7 +9,12 @@ import Landing from './components/landing/landing';
 
 // PDFs
 const SponsorLetter = () => {
-    window.location = './assets/files/corporate.pdf';
+    window.location = './assets/files/sponsor.pdf';
+    return null;
+};
+
+const StartupLetter = () => {
+    window.location = './assets/files/startup.pdf';
     return null;
 };
 
@@ -29,7 +34,8 @@ render(
         <div>
             <Route exact path="/" component={Landing}/>
             <Route path="/test" component={App} />
-            <Route path="/sponsor" component={SponsorLetter}/>
+            <Route path="/sponsor" component={SponsorLetter} />
+            <Route path="/startup" component={StartupLetter} />
         </div>
     </Router>,
     document.getElementById('app')
