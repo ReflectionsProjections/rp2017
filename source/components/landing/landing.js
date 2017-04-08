@@ -27,7 +27,11 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-
+                    <div className="hero-header-header-mobile">
+                        <div className="">
+                            <h1>reflections | projections</h1>
+                        </div>
+                    </div>
                     <Registration />
                 </div>
             </div>

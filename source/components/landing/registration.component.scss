@@ -4,17 +4,15 @@
   .registration-email-input {
     margin: 2em;
   }
-}
 
-@media (min-width: 768px) {
-
-}
-
-@media (max-width: 768px) {
-
-  .registration {
-
+  .registration-date {
+    .mobile {
+      font-size: 6vw;
+    }
   }
+}
+
+@media (min-width: 850px) {
 
 }
 
