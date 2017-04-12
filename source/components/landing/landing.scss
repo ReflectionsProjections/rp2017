@@ -23,8 +23,9 @@ $bg: #0c202b;
 
   font-family: 'Roboto Slab', serif;
   width: 100%;
-  height: calc(100vh - 2em);
-  padding-bottom: 2em;
+  height: calc(100vh - 6em);
+  padding-bottom: 3em;
+  padding-top: 3em;
   background-image: url('../../assets/svg/background-overlay.svg');
   background-size: cover;
   background-color: $bg;
