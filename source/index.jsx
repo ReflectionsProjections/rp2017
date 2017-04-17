@@ -36,6 +36,7 @@ render(
             <Route path="/test" component={App} />
             <Route path="/sponsor" component={SponsorLetter} />
             <Route path="/startup" component={StartupLetter} />
+            <Route path="/home" component={Home} />
         </div>
     </Router>,
     document.getElementById('app')

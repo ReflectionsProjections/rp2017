@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 import styles from './home.scss'
 
+import Events from './events.component'
+import Speakers from './speakers.component'
+import Sponsors from './sponsors.component'
+
 class Home extends Component {
 
     constructor() {
@@ -10,7 +14,11 @@ class Home extends Component {
     
     render() {
         return(
-            <div>Home</div>
+            <div className="home">
+                <Speakers />
+                <Events />
+                <Sponsors />
+            </div>
         )
     }
 }
