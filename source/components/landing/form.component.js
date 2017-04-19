@@ -17,7 +17,7 @@ class Form extends Component {
 
     render() {
         return(
-            <div className="registration">
+            <div>
                 <h1 className="registration-date">Sign up for updates</h1>
                 <br />
 
