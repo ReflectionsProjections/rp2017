@@ -6,6 +6,8 @@ import Information from './information.component'
 import Form from './form.component'
 import Done from './done.component'
 
+import PastSpeakers from './pastspeakers.component'
+
 class Registration extends Component {
 
     constructor() {
@@ -37,14 +39,28 @@ class Registration extends Component {
     }
 
     render() {
+        let Page;
         switch (this.state.step) {
             case 1:
-                return <Information next={this.nextStep} />;
+                Page = <Information next={this.nextStep} />;
+                break;
             case 2:
-                return <Form next={this.nextStep} />;
+                Page =  <Form next={this.nextStep} />;
+                break;
             case 3:
-                return <Done next={this.restart} />
+                Page =  <Done next={this.restart} />
+                break;
+            default:
+                Page = null
+                break;
         }
+
+        return (
+            <div className="registration">
+                {Page}
+                <PastSpeakers />
+            </div>
+        )
     }
 }
 

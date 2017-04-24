@@ -10,7 +10,7 @@ class Information extends Component {
 
     render() {
         return(
-            <div className="registration">
+            <div>
                 <h1 className="registration-date desktop">September 29th to October 1st, 2017</h1>
                 <h1 className="registration-date mobile">Sep. 29th to Oct. 1st</h1>
 

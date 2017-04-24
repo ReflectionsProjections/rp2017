@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "rp2017",
   "version": "1.0.0",
   "description": "",
   "main": "index.jsx",
@@ -10,7 +10,7 @@
     "deploy": "git subtree push --prefix public origin gh-pages"
   },
   "author": "Simon Lu",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.0",

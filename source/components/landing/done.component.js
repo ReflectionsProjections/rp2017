@@ -11,7 +11,7 @@ class Done extends Component {
     
     render() {
         return(
-            <div className="registration">
+            <div>
                 <h1 className="registration-date">You're all set!</h1>
 
                 <div className="registration-info">
