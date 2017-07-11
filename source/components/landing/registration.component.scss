@@ -10,6 +10,18 @@
       font-size: 6vw;
     }
   }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .thin {
+     a {
+       color: inherit;
+       text-decoration: none;
+     }
+  }
 }
 
 @media (min-width: 850px) {

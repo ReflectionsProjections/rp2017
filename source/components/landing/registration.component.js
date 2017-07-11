@@ -58,6 +58,7 @@ class Registration extends Component {
         return (
             <div className="registration">
                 {Page}
+                <p className="thin"><strong><a href="#/startup">Startup Fair:</a></strong> September 26 &bull; <strong><a href="#/sponsor">Job Fair:</a></strong> September 27</p>
                 <PastSpeakers />
             </div>
         )
