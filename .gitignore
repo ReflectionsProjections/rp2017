@@ -5,6 +5,7 @@ node_modules
 *.orig
 /*.log
 /node_modules
+/public
 /dist
 /bower_components
 /*.sublime-workspace
