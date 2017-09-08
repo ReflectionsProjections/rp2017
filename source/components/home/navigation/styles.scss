@@ -1,0 +1,29 @@
+.Navigation {
+    $nav-height: 80px;
+
+    .navbar {
+        background-color: white;
+
+        height: $nav-height;
+
+        .nav > li > a {
+            line-height: $nav-height;
+            color: black;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    &__item {
+        &--active {
+            
+        }
+    }
+
+    &__logo {
+        min-width: 50px;
+    }
+}

@@ -1,0 +1,20 @@
+.Footer {
+
+    &__header {
+        color: white;
+        text-align: center;
+    }
+
+    &__contact {
+        color: white;
+        font-family: 'Robot', sans-serif;
+
+        .glyphicon {
+            top: 3px;
+            left: 3px;
+            margin-right: 0.5em;
+        }
+    }
+
+    padding: 2em 0;
+}

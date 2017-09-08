@@ -1,0 +1,40 @@
+.Sponsors {
+
+    &__card {
+        color: white;
+        padding: 24px 12px;
+        text-align: center;
+    }
+
+    &__cardLogo {
+        max-width: 100px;
+    }
+
+    &__card--tier1 {
+        background-color: #7F1B22;
+        padding: 48px 12px;
+
+        .Sponsors__cardLogo {
+            max-width: 150px;
+        }
+    }
+
+    &__card--tier2 {
+        background-color: #A15E3D;
+    }
+
+    &__card--tier3 {
+        background-color: #5D8B6F;
+    }
+
+    &__card--tier4 {
+        background-color: #0F7F92;
+    }
+
+    &__header {
+        color: white;
+        text-align: center;
+    }
+
+    margin: 80px auto;
+}

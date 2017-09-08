@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121F29;
+    background-image: url('../../assets/svg/home_background.svg');
+}
+
+.Home {
+    * {
+        // Kill all rounded corners.
+        border-radius: 0;
+        border: none;
+    }
+
+    .caps {
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-family: 'Roboto', sans-serif;
+    }
+}

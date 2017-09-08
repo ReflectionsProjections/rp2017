@@ -1,0 +1,61 @@
+.About {
+    margin-top: 80px;
+
+    .jumbotron {
+        background-color: inherit;
+        color: white;
+        text-align: center;
+        font-family: inherit;
+    }
+
+    &__header {
+        max-width: 500px;
+    }
+
+    &__registerButton {
+        background-color: inherit;
+        color: #C8212A;
+        border: 2px solid #C8212A;
+    }
+
+    &__leftTabs, &__rightTabs {
+        a {
+            background-color: rgba(0,0,0,0) !important;
+            border: none !important;
+            padding: 1em 1em 1em 0em !important;
+            color: white !important;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            border-bottom: 2px solid grey;
+            width: 100%;
+        }
+
+        color: white;
+        font-family: 'Roboto', sans-serif !important;
+
+        span {
+            display: inline-block;
+            padding: 1em 1em 1em 0;
+        }
+
+        ul {
+            width: 100%;
+
+            .active {
+                border-bottom: 2px solid #C8212A;
+            }
+
+            li {
+                border-bottom: 2px solid grey;
+            }
+        }
+    }
+
+    .nav-tabs {
+
+    }
+
+    margin-bottom: 5em;
+}
