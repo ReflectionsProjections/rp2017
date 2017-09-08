@@ -7,7 +7,7 @@ import Home from './components/home/home';
 import Landing from './components/landing/landing';
 
 
-// PDFs
+// Redirects
 const SponsorLetter = () => {
     window.location = './assets/files/sponsor.pdf';
     return null;
@@ -17,6 +17,16 @@ const StartupLetter = () => {
     window.location = './assets/files/startup.pdf';
     return null;
 };
+
+const Fugger = () => {
+    window.location = 'https://docs.google.com/document/d/1yIJBJIemNGIDZb5DfH84_gR0-56z-gUHHPM3t2GIDYE/edit?usp=sharing';
+    return null;
+}
+
+const FuggerSignup = () => {
+    window.location = 'https://docs.google.com/forms/d/e/1FAIpQLSdTVtjEyBhrDqH9PU9B9vz1s4_accHnAR1xkYY7DMROukCHwA/viewform';
+    return null;
+}
 
 require('normalize.css');
 require('./styles/main.scss');
@@ -36,6 +46,9 @@ render(
             <Route path="/test" component={App} />
             <Route path="/sponsor" component={SponsorLetter} />
             <Route path="/startup" component={StartupLetter} />
+            <Route path="/home" component={Home} />
+            <Route path="/fugger" component={Fugger} />
+            <Route path="/fugger-signup" component={FuggerSignup} />
         </div>
     </Router>,
     document.getElementById('app')
