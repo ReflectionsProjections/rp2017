@@ -19,7 +19,7 @@
     }
 
     &__leftTabs, &__rightTabs {
-        a {
+        a:not(.anchor-look-like-normal) {
             background-color: rgba(0,0,0,0) !important;
             border: none !important;
             padding: 1em 1em 1em 0em !important;
@@ -30,6 +30,10 @@
             font-weight: 600;
             border-bottom: 2px solid grey;
             width: 100%;
+        }
+        .anchor-look-like-normal{
+            padding: none !important !important ;
+            text-transform: unset;
         }
 
         color: white;

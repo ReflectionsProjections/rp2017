@@ -12,6 +12,10 @@
     &__card--keynote {
         background-color: #E6E6E6;
         position: relative;
+        h3,p{
+            text-align: center;
+        }
+    
     }
 
     &__header {
@@ -31,6 +35,13 @@
         overflow-y: scroll;
         display: none;
         z-index: 999;
+        p{
+            text-indent: 20px;
+            text-align: left;
+        }
+    }
+    h3{
+        text-align: center;
     }
 
     margin: 80px auto;

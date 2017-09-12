@@ -35,23 +35,23 @@ class Tracks extends Component {
         const trackList = [
             {
                 'name': 'Data/AI',
-                'desc': 'Artificial intelligence, machine learning, data science! Did we get your attention? If you’re excited to hear about the latest computer science trend, then join us for talks with professionals in the industry.'
+                'desc': 'Join us for talks by leading professionals and researchers in Artificial Intelligence, Machine Learning, and Data Science featuring Spotify\'s Directors of Data Solutions.'
             },
             {
                 'name': 'HCI/VR',
-                'desc': 'One of the latest applications of computer science in human-computer interaction is virtual reality and augmented reality. Come see our speakers with extensive experience in VR and AR to hear about how user experience is revolutionizing!'
+            'desc': 'One of the latest applications of computer science in human-computer interaction is augmented and virtual reality. Come see our speakers with extensive experience in VR and AR to hear about how user experience is revolutionizing.'
             },
             {
                 'name': 'Security/Privacy',
-                'desc': 'Come join some of the leading professionals in security to learn about cybersecurity, means of combating cyberterrorism, cryptography, and hacking. Professors and engineers will be presenting on cutting edge security research and applications in industry!'
+                'desc': 'Come join some of the leading professionals in cybersecurity and privacy to learn about hacking, combating cyberterrorism, and cracking cryptography. Professors and engineers will be presenting cutting edge security research and applications in industry!'
             },
             {
                 'name': 'Systems',
-                'desc': 'If you’re interested in how companies customize and use Linux in production or how contributing to open source plays a role in industry, come to talks from our Systems speakers! Further topics include networking, other operating systems, and distributed systems.'
+                'desc': 'If you’re interested in how companies customize Linux in production or how contributing to Open Source plays a role in industry, come to talks from our Systems speakers! Further topics include networking, operating systems, and distributed systems.'
             },
             {
                 'name': 'Misc',
-                'desc': 'Listen to speakers talk about how computer science can play a role in fields outside of STEM such as fine arts, education, dance - the applications are endless! You’ll see some unique performances (yes, performances!) and presentations to showcase the versatility of CS.'
+                'desc': 'Listen to speakers talk about how CS can play a role in fields outside of STEM such as fine arts, education, dance - the applications are endless! See unique light performances from Laura Kriefman and presentations that showcase the versatility of CS.'
             }
         ];
 
