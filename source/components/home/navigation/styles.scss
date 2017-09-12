@@ -6,6 +6,9 @@
 
         height: $nav-height;
 
+        li{
+            opacity: .98;            
+        }
         .nav > li > a {
             line-height: $nav-height;
             color: black;
@@ -14,6 +17,7 @@
             letter-spacing: 0.5px;
             padding-top: 0;
             padding-bottom: 0;
+            background-color: white;
         }
     }
 
@@ -26,4 +30,5 @@
     &__logo {
         min-width: 50px;
     }
+
 }

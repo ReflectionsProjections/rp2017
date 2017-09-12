@@ -17,7 +17,7 @@ class Footer extends Component {
                         <img width={80} height={80} src="../assets/svg/acm_box_logo.svg" alt="Image"/>
                     </Media.Left>
                     <Media.Body>
-                        <p className="Footer__contact"><Glyphicon glyph="earphone" /> +1 (217) 333-5828 <br /><Glyphicon glyph="envelope" /> conference-chair@acm.uiuc.edu <br/> whatever</p>
+                        <p className="Footer__contact"><Glyphicon glyph="earphone" /> +1 (217) 333-5828 <br /><Glyphicon glyph="envelope" /> conference-chair@acm.uiuc.edu <br/></p>
                     </Media.Body>
                 </Media>
             </div>

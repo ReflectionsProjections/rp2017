@@ -1,15 +1,47 @@
 .Speakers {
     &__card {
+        position: relative;
         background-color: #E6E6E6;
+
+        img {
+            max-width: 100%;
+            max-height: 300px;
+        }
     }
 
     &__card--keynote {
         background-color: #E6E6E6;
+        position: relative;
+        h3,p{
+            text-align: center;
+        }
+    
     }
 
     &__header {
         text-align: center;
         color: white;
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        color: black;
+        padding: 10px;
+        overflow-y: scroll;
+        display: none;
+        z-index: 999;
+        p{
+            text-indent: 20px;
+            text-align: left;
+        }
+    }
+    h3{
+        text-align: center;
     }
 
     margin: 80px auto;
