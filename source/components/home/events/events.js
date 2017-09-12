@@ -11,7 +11,7 @@ class Events extends Component {
 
     render() {
         return(
-            <div className="Events container">
+            <div id="Events" className="Events container">
                 <PageHeader className="Events__header">Schedule</PageHeader>
                 <Alert bsStyle="info" onDismiss={this.handleAlertDismiss}>
                   <h4>More details to be announced!</h4>

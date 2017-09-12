@@ -11,11 +11,11 @@ class About extends Component {
 
     render() {
         return(
-            <div className="About container">
+            <div id="About" className="About container">
                 <Jumbotron>
                     <img className="About__header" src="../assets/svg/home_header.svg" />
                     <p className="caps">September 29th - October 1st, 2017</p>
-                    <p><Button className="About__registerButton caps" bsStyle="">Register for Conference</Button></p>
+                    <p><Button href="http://reflectionsprojections.org/signup" className="About__registerButton caps">Register for Conference</Button></p>
                 </Jumbotron>
 
                 <Grid>
@@ -53,14 +53,24 @@ class About extends Component {
                                     We know that you can’t wait for HackIllinois, so until then join us for Mechmania, University of Illinois’ 24 hour AI hackathon, on September 29th-30th, 2017! Bring your friends as your teammates and create a bot that beats everyone else's’ to win some cool prizes! Registration details coming soon!
                                 </span>
                                 </Tab>
-                                <Tab eventKey={3} title="Career Fair">
+                                <Tab eventKey={3} title="Career Fairs">
                                 <span>
+                                                                        Hoping to get an internship next summer with some of the hottest startups around? Come get a first-hand look at the latest tech ventures at the Reflections|Projections Startup Career Fair on September 26th, 2017.
+                        <br /><br />
                                     Join us on September 27th, 2017 for the Reflections|Projections Career Fair! Last year, almost 2000 students interacted with 27 of the best tech companies around! Come dressed casually after class to interact with recruiters, learn about the companies, and apply for internships!
+
                                 </span>
                                 </Tab>
-                                <Tab eventKey={4} title="Startup Fair">
+                                <Tab eventKey={4} title="Code Golf">
                                 <span>
-                                    Hoping to get an internship next summer with some of the hottest startups around? Come get a first-hand look at the latest tech ventures at the Reflections|Projections Startup Career Fair on September 26th, 2017.
+                                    Come and compete at the newest computer science competition at Reflections|Projections! Code Golf is a themed algorithmic programming competition where participants solve a series of increasingly difficult questions in as few lines as possible. Questions span a wide variety of topics and is suited for students of all levels of expertise. Join us for challenge, camaraderie, and fabulous prizes!
+                                </span>
+                                </Tab>
+                                <Tab eventKey={5} title="Datathon">
+                                <span>
+                                    Reflections|Projections will be hosting the ADSA Electronic Trading Challenge (ETC) this year, a day-long programming contest where participants compete against each other in a simulated market. This event has been powered by Jane Street. We’ll begin at 10:00am CT on Saturday, September 23rd, and continue into the night. Breakfast, lunch, and dinner will be provided and there’s a cash prize for the winning team. You can sign up either as a single participant or as a team. If you sign up alone we’ll randomly assign you to a team. This event is intended only for students currently enrolled in a college or university.
+
+Sign-ups will close on Sunday, September 17th at 11:59pm EDT and we’ll notify all interested students of their attendance by Tuesday, September 19th. Due to potential space constraints we are only going to provide the location and other details to those who are confirmed for a spot.
                                 </span>
                                 </Tab>
                             </Tabs>

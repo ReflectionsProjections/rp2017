@@ -10,6 +10,22 @@ class Navigation extends Component {
     }
 
     render() {
+
+        this.scrollTo = (name) => {
+            const element = document.getElementById(name);
+            element.scrollIntoView();
+
+            const scrolledY = window.scrollY;
+
+            if(scrolledY){
+                window.scroll(0, scrolledY - 100);
+            }
+        };
+
+        this.linkTo = (url) => {
+            window.location = url;
+        };
+
         return(
             <div className="Navigation">
                 <Navbar collapseOnSelect fixedTop>
@@ -23,17 +39,12 @@ class Navigation extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#" className="Navigation__item--active">About</NavItem>
-                        <NavItem eventKey={2} href="#">Speakers</NavItem>
-                        <NavItem eventKey={3} href="#">Tracks</NavItem>
-                        <NavItem eventKey={4} href="#">Sponsors</NavItem>
-                        <NavDropdown eventKey={5} title="More" id="basic-nav-dropdown">
-                            <MenuItem eventKey={6.1}>Action</MenuItem>
-                            <MenuItem eventKey={6.2}>Another action</MenuItem>
-                            <MenuItem eventKey={6.3}>Something else here</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem eventKey={6.4}>Separated link</MenuItem>
-                        </NavDropdown>
+                        <NavItem onClick={() => this.scrollTo('About')} eventKey={1} href="#" className="Navigation__item--active">About</NavItem>
+                        <NavItem onClick={() => this.scrollTo('Speakers')} eventKey={2} href="#Speakers">Speakers</NavItem>
+                        <NavItem onClick={() => this.scrollTo('Tracks')} eventKey={3} href="#">Tracks</NavItem>
+                        <NavItem onClick={() => this.scrollTo('Events')} eventKey={6} href="#">Schedule</NavItem>
+                        <NavItem onClick={() => this.scrollTo('Sponsors')} eventKey={4} href="#">Sponsors</NavItem>
+                        <NavItem onClick={() => this.linkTo('http://reflectionsprojections.org/signup')} eventKey={5} href="">Register</NavItem>
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>

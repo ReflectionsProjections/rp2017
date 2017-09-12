@@ -42,7 +42,7 @@ class App extends React.Component {
 render(
     <Router>
         <div>
-            <Route exact path="/" component={Landing}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/sponsor" component={SponsorLetter} />
             <Route path="/startup" component={StartupLetter} />
             <Route path="/home" component={Home} />

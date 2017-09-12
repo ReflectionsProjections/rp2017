@@ -9,6 +9,28 @@ class Tracks extends Component {
         super()
     }
 
+    componentDidMount() {
+        const cardHeightHandler = () => {
+            let cards = document.getElementsByClassName('Tracks__card');
+            const cardHeights = Array.prototype.map.call(cards, (card) => {
+                return card.offsetHeight;
+            });
+
+            const maxHeight = Math.max.apply(null, cardHeights);
+            Array.prototype.forEach.call(cards, (card) => {
+                card.style.height = maxHeight + "px";
+            });
+        };
+
+        window.addEventListener('load', () => {
+            cardHeightHandler();
+        });
+
+        window.addEventListener('resize', () => {
+            cardHeightHandler();
+        });
+    }
+
     render() {
         const trackList = [
             {
@@ -33,11 +55,11 @@ class Tracks extends Component {
             }
         ];
 
-        const trackView = trackList.map( (track) => {
+        const trackView = trackList.map( (track, idx) => {
             return(
-                <Col xs={12} sm={6} md={4}>
+                <Col key={idx} xs={12} sm={6} md={4}>
                     <Panel className="Tracks__card">
-                        <h3>{track.name}</h3>
+                        <h3>{track.name}</h3><br />
                         <h5>{track.desc}</h5>
                     </Panel>
                 </Col>
@@ -45,7 +67,7 @@ class Tracks extends Component {
         });
 
         return(
-            <div className="Tracks">
+            <div className="Tracks" id="Tracks">
                 <PageHeader className="Tracks__header">Tracks</PageHeader>
                 <Grid>
                     <Row>

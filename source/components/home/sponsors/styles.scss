@@ -2,33 +2,56 @@
 
     &__card {
         color: white;
-        padding: 24px 12px;
         text-align: center;
-    }
+        position: relative;
+        min-height: 150px;
 
-    &__cardLogo {
-        max-width: 100px;
-    }
-
-    &__card--tier1 {
-        background-color: #7F1B22;
-        padding: 48px 12px;
-
-        .Sponsors__cardLogo {
-            max-width: 150px;
+        img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+            max-height: 100px;
         }
     }
 
+    &__cardLogo {
+
+    }
+
+    &__card--tier1 {
+        min-height: 250px;
+        border: 10px solid #7F1B22;
+    }
+
+    &__gridRow {
+        text-align: center;
+    }
+
+    &__centeredCard {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__centerContent {
+        text-align: center;
+        align-content: center;
+    }
+
     &__card--tier2 {
-        background-color: #A15E3D;
+        min-height: 200px;
+        border: 10px solid #A15E3D;
     }
 
     &__card--tier3 {
-        background-color: #5D8B6F;
+        min-height: 150px;
+        border: 7px solid #5D8B6F;
     }
 
     &__card--tier4 {
-        background-color: #0F7F92;
+        border: 5px solid #0F7F92;
     }
 
     &__header {
