@@ -19,7 +19,10 @@ class Speakers extends Component {
             const maxHeight = Math.max.apply(null, cardHeights);
             cards = document.getElementsByClassName('js-speakercard');
             Array.prototype.forEach.call(cards, (card) => {
+                // console.log(card.style);
                 card.style.height = maxHeight + "px";
+                // console.log(card.style);
+                
             });
         };
 
@@ -227,11 +230,12 @@ class Speakers extends Component {
                     case 'misc': hex="#85C494"
                     break;
                 }
+                var hexStr = "4px solid " + hex;
+                // console.log(hexStr);
                 return(
-                    <Col key={idx} xs={12} sm={6} md={3}>
+                    <Col key={idx} xs={12} sm={6} md={3} style={{"border:": "4px solid red"}}>
                         <Thumbnail onClick={(e) => this.handleClick(e, 'js-overlay-' + idx)} className="Speakers__card js-speakercard" src={speaker.img}>
-                            <h3>{speaker.name}</h3>
-
+                            <h3>{speaker.name}</h3>{speaker.track}
                             <div onClick={(e) => this.hideOverlay(e, 'js-overlay-' + idx)} id={'js-overlay-' + idx} className="Speakers__overlay">
                                 <h4>{speaker.name}</h4><br/>
                                 <p>{speaker.bio}</p>

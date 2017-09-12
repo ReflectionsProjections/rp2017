@@ -42,7 +42,8 @@ class About extends Component {
                                 <span>
                                     Join us for ACM Career Week on September 26th for our Startup Fair and on September 27th for our Career Fair!
                                     Last year, almost 2000 students interacted with 27 of the best tech companies around. Come dressed casually after class to interact with recruiters, learn about the companies, and apply for internships.
-
+                                    <br/><br/>
+                                    <a href="http://reflectionsprojections.org/companies" className="anchor-look-like-normal">Click here to view the list of companies attending!</a>
                                 </span>
                                 </Tab>
                                 <Tab eventKey={2} title="Mechmania">
