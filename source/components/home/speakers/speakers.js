@@ -235,7 +235,7 @@ class Speakers extends Component {
                 return(
                     <Col key={idx} xs={12} sm={6} md={3} style={{"border:": "4px solid red"}}>
                         <Thumbnail onClick={(e) => this.handleClick(e, 'js-overlay-' + idx)} className="Speakers__card js-speakercard" src={speaker.img}>
-                            <h3>{speaker.name}</h3>{speaker.track}
+                            <h3>{speaker.name}</h3>
                             <div onClick={(e) => this.hideOverlay(e, 'js-overlay-' + idx)} id={'js-overlay-' + idx} className="Speakers__overlay">
                                 <h4>{speaker.name}</h4><br/>
                                 <p>{speaker.bio}</p>
