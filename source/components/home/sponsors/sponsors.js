@@ -52,11 +52,6 @@ class Sponsors extends Component {
                     name: 'Qualtrics',
                     img: '../assets/img/sponsors/jobfair/gigabyte/qualtrics.png',
                     url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
-                },
-                {
-                    name: 'HackIllinois',
-                    img: '../assets/img/sponsors/jobfair/gigabyte/hackillinois.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
                 }
             ],
 
