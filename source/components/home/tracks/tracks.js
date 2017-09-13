@@ -49,10 +49,10 @@ class Tracks extends Component {
                 'name': 'Systems',
                 'desc': 'If you’re interested in how companies customize Linux in production or how contributing to Open Source plays a role in industry, come to talks from our Systems speakers! Further topics include networking, operating systems, and distributed systems.'
             },
-            {
-                'name': 'Misc',
-                'desc': 'Listen to speakers talk about how CS can play a role in fields outside of STEM such as fine arts, education, dance - the applications are endless! See unique light performances from Laura Kriefman and presentations that showcase the versatility of CS.'
-            }
+            // {
+            //     'name': 'Misc',
+            //     'desc': 'Listen to speakers talk about how CS can play a role in fields outside of STEM such as fine arts, education, dance - the applications are endless! See unique light performances from Laura Kriefman and presentations that showcase the versatility of CS.'
+            // }
         ];
 
         const trackView = trackList.map( (track, idx) => {

@@ -40,7 +40,7 @@ class About extends Component {
                             <Tabs className="About__rightTabs" defaultActiveKey={1} id="uncontrolled-tab-example">
                                 <Tab eventKey={1} title="Career Fairs">
                                 <span>
-                                    Join us for ACM Career Week on September 26th for our Startup Fair and on September 27th for our Career Fair!
+                                    Join us for ACM Career Week on September 26th for our Startup Fair and on September 27th for our Career Fair! Both the Startup and Career Fair will run from 10am to 4pm.
                                     Last year, almost 2000 students interacted with 27 of the best tech companies around. Come dressed casually after class to interact with recruiters, learn about the companies, and apply for internships.
                                     <br/><br/>
                                     <a href="http://reflectionsprojections.org/companies" className="anchor-look-like-normal">Click here to view the list of companies attending!</a>
