@@ -58,7 +58,7 @@ class About extends Component {
                                 <Tab eventKey={3} title="Puzzlebang!">
                                 <span>
                                     The annual puzzle contest PuzzleBang is back again in 2017!  Teams will solve a series of puzzles throughout the week, concluding with a metapuzzle on Saturday.  
-                                    Just finding out about PuzzleBang?  It’s not too late!  Grab a few friends and <a href="https://puzzlebang.com" className="anchor-look-like-normal">sign up here</a>
+                                    Just finding out about PuzzleBang?  It’s not too late!  Grab a few friends and <a href="https://puzzlebang.com" className="anchor-look-like-normal">sign up here.  </a>
 
                                     PuzzleBang is also running a separate escape room Friday-Sunday - you don’t need to play online in order to try the escape room.  
                                     Follow <a href="https://twitter.com/puzzlebang" className="anchor-look-like-normal">@puzzlebang</a> on twitter for sign-up information and announcements.
