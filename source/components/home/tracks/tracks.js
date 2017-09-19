@@ -36,12 +36,12 @@ class Tracks extends Component {
             {
                 'name': 'Data/AI',
                 'desc': 'Join us for talks by leading professionals and researchers in Artificial Intelligence, Machine Learning, and Data Science featuring Spotify\'s Directors of Data Solutions.',
-                'color':'#9a6fb0'
+                'color':'#02B2CA'
             },
             {
                 'name': 'HCI/VR',
                 'desc': 'One of the latest applications of computer science in human-computer interaction is augmented and virtual reality. Come see our speakers with extensive experience in VR and AR to hear about how user experience is revolutionizing.',
-                'color':'#02B2CA'
+                'color':'#85C494'
             },
             {
                 'name': 'Security/Privacy',
