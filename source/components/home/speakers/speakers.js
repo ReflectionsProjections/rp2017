@@ -53,9 +53,10 @@ class Speakers extends Component {
             {
                 'name': 'Chris Gladwin',
                 'desc': 'Founder and Vice Chairman of CleverSafe',
-                'img': '../assets/img/chris.png',
-                'bio': 'Gladwin, an MIT-trained engineer who worked at Zenith Data Systems, launched an early competitor to iTunes called MusicNow before building Cleversafe. He’s one of the city’s top technologists who has an appetite for tackling big, thorny tech problems.\n' +
-                'Gladwin is joined at Ocient by longtime collaborator Scott Merkle, vice president of marketing and business development, in the Denver area. The two worked together on an early tablet-computer startup, called Cruise Technologies, that they launched in the late 90s.\n',
+                'img': '../assets/img/chris.jpg',
+                'bio': 'In 2004, Chris founded Cleversafe which became the largest and most strategic object storage vendor in the world (according to IDC.)  He raised $100M and then led the company to a $1.4B exit in 2015 when IBM acquired the company.  ' +
+                'The technology team he created generated over 1,000 patents granted or filed, creating one of the ten most powerful patent portfolios in the world.  Prior to Cleversafe, Chris was the Foundering CEO of startups MusicNow and Cruise Technologies, and led ' + 
+                'product strategy for Zenith Data Systems.  He started his career at Lockheed Martin as a database programmer, and holds an engineering degree from MIT.  Chris is now the CEO and Co-Founder of Ocient whose mission is to successfully provide the leading platform the world uses to analyze its largest datasets.',
                 'keynote': true
             },
 
@@ -206,7 +207,7 @@ class Speakers extends Component {
             if(speaker.keynote) {
                 return(
                     <Col key={idx} xs={12} sm={6} md={6}>
-                        <Thumbnail onClick={(e) => this.handleClick(e, 'js-overlay-' + idx)} className="Speakers__card--keynote" src={speaker.img}>
+                        <Thumbnail onClick={(e) => this.handleClick(e, 'js-overlay-' + idx)} className="Speakers__card--keynote" src={speaker.img} style={{"max-width":""}}>
                             <h3>{speaker.name}</h3>
                             <p>Keynote Speaker</p>
                             <div onClick={(e) => this.hideOverlay(e, 'js-overlay-' + idx)} id={'js-overlay-' + idx} className="Speakers__overlay">

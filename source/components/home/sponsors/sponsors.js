@@ -15,7 +15,7 @@ class Sponsors extends Component {
                 {
                     name: 'Nvidia',
                     img: '../assets/img/sponsors/jobfair/petabyte/nvidia.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.nvidia.com/page/home.html'
                 }
             ],
 
@@ -23,7 +23,7 @@ class Sponsors extends Component {
                 {
                     name: 'RetailMeNot',
                     img: '../assets/img/sponsors/jobfair/terabyte/retailmenot.svg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.retailmenot.com/'
                 }
             ],
 
@@ -31,159 +31,175 @@ class Sponsors extends Component {
                 {
                     name: 'Forcepoint',
                     img: '../assets/img/sponsors/jobfair/gigabyte/forcepoint.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.forcepoint.com'
                 },
                 {
                     name: 'IMO',
                     img: '../assets/img/sponsors/jobfair/gigabyte/imo.svg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.e-imo.com/'
                 },
                 {
                     name: 'Microsoft',
                     img: '../assets/img/sponsors/jobfair/gigabyte/microsoft.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.microsoft.com/en-us/'
                 },
                 {
                     name: 'Northern Trust',
                     img: '../assets/img/sponsors/jobfair/gigabyte/northerntrust.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.northerntrust.com/'
                 },
                 {
                     name: 'Qualtrics',
                     img: '../assets/img/sponsors/jobfair/gigabyte/qualtrics.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.qualtrics.com/'
                 }
             ],
 
             tier4: [
                 {
                     name: 'Amobee',
-                    img: '../assets/img/sponsors/jobfair/megabyte/amobee.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    img: '../assets/img/sponsors/jobfair/megabyte/amobee.jpg',
+                    url: 'https://amobee.com'
                 },
                 {
                     name: 'Buildout',
                     img: '../assets/img/sponsors/jobfair/megabyte/buildout.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://buildout.com/'
                 },
                 {
                     name: 'CME Group',
                     img: '../assets/img/sponsors/jobfair/megabyte/cmegroup.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.cmegroup.com/'
                 },
                 {
                     name: 'Facebook',
                     img: '../assets/img/sponsors/jobfair/megabyte/facebook.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.facebook.com/'
                 },
                 {
-                    name: 'gartner',
+                    name: 'Gartner',
                     img: '../assets/img/sponsors/jobfair/megabyte/gartner.PNG',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.gartner.com/technology/home.jsp'
                 },
                 {
                     name: 'Google',
                     img: '../assets/img/sponsors/jobfair/megabyte/google.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.google.com/'
                 },
                 {
                     name: 'Indeed',
                     img: '../assets/img/sponsors/jobfair/megabyte/indeed.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.indeed.com/'
                 },
                 {
                     name: 'Morningstar',
                     img: '../assets/img/sponsors/jobfair/megabyte/morningstar.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.morningstar.com/'
                 },
                 {
                     name: 'Navtalent',
                     img: '../assets/img/sponsors/jobfair/megabyte/navtalent.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'http://navtalent.com/'
                 },
                 {
                     name: 'NccGroup',
                     img: '../assets/img/sponsors/jobfair/megabyte/nccgroup.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.nccgroup.trust/us/'
                 },
                 {
                     name: 'Pinterest',
                     img: '../assets/img/sponsors/jobfair/megabyte/pinterest.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.pinterest.com/'
                 },
                 {
                     name: 'Sandia',
                     img: '../assets/img/sponsors/jobfair/megabyte/sandia.jpg',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'http://www.sandia.gov'
                 },
                 {
                     name: 'Uber',
                     img: '../assets/img/sponsors/jobfair/megabyte/uber.png',
-                    url: 'https://www.youtube.com/watch?v=jO5IaAKTKsQ'
+                    url: 'https://www.uber.com/'
                 },
 
                 // startups
 
                 {
-                    name: '',
+                    name: 'a16z',
                     img: '../assets/img/sponsors/startups/andreessenhorowitz.png',
-                    url: ''
+                    url: 'https://a16z.com/'
                 },
                 {
-                    name: '',
+                    name: 'Buildout',
                     img: '../assets/img/sponsors/startups/buildout.png',
-                    url: ''
+                    url: 'https://buildout.com/'
                 },
                 {
-                    name: '',
+                    name: 'Cloudflare',
                     img: '../assets/img/sponsors/startups/cloudflare.svg',
-                    url: ''
+                    url: 'https://www.cloudflare.com/'
                 },
                 {
-                    name: '',
+                    name: 'Curalate',
                     img: '../assets/img/sponsors/startups/curalate.svg',
-                    url: ''
+                    url: 'https://www.curalate.com/'
                 },
                 {
-                    name: '',
+                    name: 'Granular',
                     img: '../assets/img/sponsors/startups/granular.jpg',
-                    url: ''
+                    url: 'https://www.granular.ag/'
                 },
                 {
-                    name: '',
+                    name: 'Liferay',
                     img: '../assets/img/sponsors/startups/liferay.png',
-                    url: ''
+                    url: 'https://www.liferay.com/'
                 },
                 {
-                    name: '',
+                    name: 'Mixmax',
                     img: '../assets/img/sponsors/startups/mixmax.png',
-                    url: ''
+                    url: 'https://mixmax.com/'
                 },
                 {
-                    name: '',
+                    name: 'Ocient',
                     img: '../assets/img/sponsors/startups/ocient.jpeg',
-                    url: ''
+                    url: 'http://www.ocient.com/'
                 },
                 {
-                    name: '',
+                    name: 'Rubrik',
                     img: '../assets/img/sponsors/startups/rubrik.png',
-                    url: ''
+                    url: 'https://www.rubrik.com/'
                 },
                 {
-                    name: '',
+                    name: 'Samsara',
                     img: '../assets/img/sponsors/startups/samsara.png',
-                    url: ''
+                    url: 'https://www.samsara.com/'
                 },
                 {
-                    name: '',
+                    name: 'Sprout Social',
                     img: '../assets/img/sponsors/startups/sproutsocial.png',
-                    url: ''
+                    url: 'https://sproutsocial.com/'
                 },
                 {
-                    name: '',
+                    name: 'Thing B1G',
                     img: '../assets/img/sponsors/startups/thinkbig.jpg',
-                    url: ''
-                }
+                    url: 'http://thinkb1g.com/'
+                },
+                {
+                    name: 'Jane Street',
+                    img: '../assets/img/sponsors/jobfair/megabyte/janestreet.png',
+                    url: 'https://www.janestreet.com/'
+                },
+                {
+                    name: 'Capital One',
+                    img: '../assets/img/sponsors/jobfair/megabyte/capitalone.png',
+                    url: 'https://www.capitalone.com/'
+                },
+                {
+                    name: 'Huawei',
+                    img: '../assets/img/sponsors/jobfair/megabyte/huawei.png',
+                    url: 'http://www.huawei.com/us/'
+                },
+
 
             ]
         }
@@ -191,9 +207,11 @@ class Sponsors extends Component {
         const tier1Sponsors = sponsorsList.tier1.map( (sponsor, idx) => {
             return(
                 <Col key={idx} xs={12} sm={6} md={6} className="Sponsors__centeredCard">
-                    <Panel className="Sponsors__card Sponsors__card--tier1">
-                        <img className="Sponsors__cardLogo" src={sponsor.img} />
-                    </Panel>
+                    <a href={sponsor.url}>
+                        <Panel className="Sponsors__card Sponsors__card--tier1">
+                            <img className="Sponsors__cardLogo" src={sponsor.img} alt={sponsor.name}/>
+                        </Panel>
+                    </a>
                 </Col>
             )
         });
@@ -201,9 +219,11 @@ class Sponsors extends Component {
         const tier2Sponsors = sponsorsList.tier2.map( (sponsor, idx) => {
             return(
                 <Col key={idx} xs={12} sm={4} md={4} className="Sponsors__centeredCard">
-                    <Panel className="Sponsors__card Sponsors__card--tier2">
-                        <img className="Sponsors__cardLogo" src={sponsor.img} />
-                    </Panel>
+                    <a href={sponsor.url}>
+                        <Panel className="Sponsors__card Sponsors__card--tier2">
+                            <img className="Sponsors__cardLogo" src={sponsor.img} alt={sponsor.name}/>
+                        </Panel>
+                    </a>
                 </Col>
             )
         });
@@ -211,9 +231,11 @@ class Sponsors extends Component {
         const tier3Sponsors = sponsorsList.tier3.map( (sponsor, idx) => {
             return(
                 <Col key={idx} xs={12} sm={4} md={4}>
-                    <Panel className="Sponsors__card Sponsors__card--tier3">
-                        <img className="Sponsors__cardLogo" src={sponsor.img} />
-                    </Panel>
+                    <a href={sponsor.url}>
+                        <Panel className="Sponsors__card Sponsors__card--tier3">
+                            <img className="Sponsors__cardLogo" src={sponsor.img} alt={sponsor.name}/>
+                        </Panel>
+                    </a>
                 </Col>
             )
         });
@@ -221,9 +243,11 @@ class Sponsors extends Component {
         const tier4Sponsors = sponsorsList.tier4.map( (sponsor, idx) => {
             return(
                 <Col key={idx} xs={12} sm={3} md={3}>
-                    <Panel className="Sponsors__card Sponsors__card--tier4">
-                        <img className="Sponsors__cardLogo" src={sponsor.img} />
-                    </Panel>
+                    <a href={sponsor.url}>
+                        <Panel className="Sponsors__card Sponsors__card--tier4">
+                            <img className="Sponsors__cardLogo" src={sponsor.img} alt={sponsor.name}/>
+                        </Panel>
+                    </a>
                 </Col>
             )
         });
