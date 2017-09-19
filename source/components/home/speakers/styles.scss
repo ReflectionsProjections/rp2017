@@ -5,7 +5,14 @@
 
         img {
             max-width: 100%;
+            width: auto;
             max-height: 300px;
+            
+        }
+        .caption{
+            // display: flexbox;
+            // align-content: center;
+            // justify-content: center;
         }
     }
 
@@ -48,4 +55,8 @@
     }
 
     margin: 80px auto;
+
+    .thumbnail{
+        padding:0;
+    }
 }

@@ -19,7 +19,7 @@ class Footer extends Component {
                     <Media.Body>
                         <p className="Footer__contact">
                             <Glyphicon glyph="earphone" /> +1 (217) 333-5828 <br />
-                            <Glyphicon glyph="envelope" /> conference-chair@acm.uiuc.edu <br/>
+                            <Glyphicon glyph="envelope" /> conference-chair@acm.illinois.edu <br/>
                             
                         </p>
                     </Media.Body>
