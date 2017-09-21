@@ -154,10 +154,10 @@ class Speakers extends Component {
                 'track':'hci'                
             },
             {
-                'name': 'Ranjita Kumar',
+                'name': 'Ranjitha Kumar',
                 'desc': '',
                 'img': '../assets/img/ranjita.jpg',
-                'bio': 'Ranjita Kumar is an Assistant Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign where she tackles problems in human-computer interaction, with a focus on bringing data mining and machine learning to bear on problems in design. She received her PhD from the Department of Computer Science at Stanford University, where I worked with Scott Klemmer. She also formerly co-founded and was the the Chief Scientist for Apropose, Inc., a data-driven design company backed by Andreessen Horowitz and New Enterprise Associates.\n',
+                'bio': 'Ranjitha Kumar is an Assistant Professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign where she tackles problems in human-computer interaction, with a focus on bringing data mining and machine learning to bear on problems in design. She received her PhD from the Department of Computer Science at Stanford University, where I worked with Scott Klemmer. She also formerly co-founded and was the the Chief Scientist for Apropose, Inc., a data-driven design company backed by Andreessen Horowitz and New Enterprise Associates.\n',
                 'track':'hci'                
                 
             },
