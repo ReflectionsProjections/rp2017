@@ -18,3 +18,10 @@
 
     padding: 2em 0;
 }
+
+.ReactModal__Body--open{
+    background-color: rgba(20, 20, 20, 0.85) !important;
+}
+.ReactModal__Overlay .ReactModal__Overlay--after-open{
+    background-color: black;
+}

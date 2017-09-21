@@ -52,7 +52,13 @@ class Sponsors extends Component {
                     name: 'Qualtrics',
                     img: '../assets/img/sponsors/jobfair/gigabyte/qualtrics.png',
                     url: 'https://www.qualtrics.com/'
+                },
+                {
+                    name: 'Bank of America',
+                    img: '../assets/img/sponsors/jobfair/gigabyte/bankofamerica.jpg',
+                    url: 'https://www.bankofamerica.com/'
                 }
+
             ],
 
             tier4: [
@@ -78,7 +84,7 @@ class Sponsors extends Component {
                 },
                 {
                     name: 'Gartner',
-                    img: '../assets/img/sponsors/jobfair/megabyte/gartner.PNG',
+                    img: '../assets/img/sponsors/jobfair/megabyte/gartner.png',
                     url: 'https://www.gartner.com/technology/home.jsp'
                 },
                 {
