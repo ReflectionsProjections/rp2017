@@ -48,11 +48,12 @@ class About extends Component {
                                 </Tab>
                                 <Tab eventKey={2} title="Mechmania">
                                 <span>
-                                    Mechmania is Reflection | Projection's 24 hour AI hackathon returning September 29th-30th, 2017. 
+                                    Mechmania is Reflection | Projection's 24 hour AI hackathon returning September 29th-30th, 2017 in 1404 Siebel. 
                                     Compete in a battle of wits on a virtual battlefield! 
                                     Mechmania is an overnight hack-a-thon for teams of up to four people. 
                                     Participants have twenty-four hours to write an autonomous program that will play against other bots in an original video 
-                                    game, which is revealed when the event begins at 8pm, September 29th, 2017. Registration is free and details are coming soon!
+                                    game, which is revealed when the event begins at 8pm, September 29th, 2017. <br/><br/>
+                                    <a href="https://acmrp.org/mechmania" className="anchor-look-like-normal">You can register here!</a>
                                 </span>
                                 </Tab>
                                 <Tab eventKey={3} title="Puzzlebang!">
@@ -66,7 +67,10 @@ class About extends Component {
                                 </Tab>
                                 <Tab eventKey={4} title="Code Golf">
                                 <span>
-                                    Come and compete at the newest computer science competition at Reflections|Projections! Code Golf is a themed algorithmic programming competition in which participants solve a series of increasingly difficult questions in as few lines as possible. Questions span a wide variety of topics and are suited for students of all levels of expertise. Join us for challenge, camaraderie, and fabulous prizes!
+                                    Come and compete at the newest computer science competition at Reflections|Projections! Code Golf is a themed algorithmic programming competition in which participants solve a series of 
+                                    increasingly difficult questions in as few lines as possible. Questions span a wide variety of topics and are suited for students of all levels of expertise. Join us for challenge, camaraderie, and fabulous prizes!
+                                    <br/><br/>
+                                    Codegolf will be held on Friday, September 29th from 8pm-12am in 2405 Siebel.  Registration coming soon! 
                                 </span>
                                 </Tab>
                                 <Tab eventKey={5} title="ETC">

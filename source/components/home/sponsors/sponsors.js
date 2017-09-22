@@ -127,6 +127,11 @@ class Sponsors extends Component {
                     img: '../assets/img/sponsors/jobfair/megabyte/uber.png',
                     url: 'https://www.uber.com/'
                 },
+                {
+                    name: 'West Monrow',
+                    img: '../assets/img/sponsors/jobfair/megabyte/westmonroe.jpg',
+                    url: 'http://www.westmonroepartners.com/'
+                },
 
                 // startups
 
