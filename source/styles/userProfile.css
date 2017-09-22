@@ -1,0 +1,105 @@
+.body {
+  background-color: #0b1821;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  font-family: 'Roboto Slab';
+  color: white;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.button {
+  background-color: #B32024;
+  padding: 1em 4em;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+  display: block;
+  width: 220px;
+  font-size: inherit;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+.logo_text {
+	display:inline;
+  top: 3px;
+  position: relative;
+}
+
+.logo {
+  display: inline;
+  height: 40px;
+  width: 40px;
+}
+
+.welcome {
+  display: inline;
+  float: right;
+  top: 3px;
+  position: relative;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding: 0 10px 0 10px;
+
+}
+
+.header a {
+  color: white;
+}
+
+.header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.schedule-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.schedule ul .active{
+  border-bottom: 2px solid #C8212A;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: gray;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  color: white;
+}
+
+.nav-tabs>li.active>a {
+  color: white !important;
+  cursor: default;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom-color: transparent !important;
+
+}
+
+.event {
+  list-style: none;
+  padding: 0;
+  border-bottom: white 1px solid;
+  padding-bottom: 10px;
+}
