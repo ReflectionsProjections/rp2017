@@ -4,4 +4,18 @@
         color: white;
         text-align: center;
     }
+    h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__button {
+        margin: 0 auto;
+        text-align: center;
+        background-color: inherit;
+        color: #C8212A;
+        border: 2px solid #C8212A;
+        font-size: 18px;
+    }
+
 }
