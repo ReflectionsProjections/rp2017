@@ -30,11 +30,16 @@ class Footer extends Component {
 	}
 
 	render() {
+		var logoStyle = {
+			width: "120px", 
+			height: "120px",
+			margin: "-10px 0 0 0"
+		};
 		return(
 			<div className="Footer container">
 				<Media>
 					<Media.Left>
-						<img width={80} height={80} src="../assets/svg/acm_box_logo.svg" alt="Image"/>
+						<img style={logoStyle} src="../assets/svg/acm_logo_50.svg" alt="Image"/>
 					</Media.Left>
 					<Media.Body>
 						<p className="Footer__contact">
