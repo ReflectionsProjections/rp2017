@@ -15,7 +15,10 @@ class About extends Component {
                 <Jumbotron>
                     <img className="About__header" src="../assets/svg/home_header.svg" />
                     <p className="caps">September 25th - October 1st, 2017</p>
-                    <p><Button href="http://reflectionsprojections.org/signup" className="About__registerButton caps">Register for Conference</Button></p>
+                    <div className="buttons">
+                        <Button href="http://reflectionsprojections.org/signup" className="About__registerButton caps">Register for Conference</Button>
+                        <Button href="http://reflectionsprojections.org/schedule" className="About__registerButton caps">View our schedule</Button>
+                    </div>
                 </Jumbotron>
 
                 <Grid>

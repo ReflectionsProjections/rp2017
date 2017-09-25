@@ -1,6 +1,7 @@
 .About {
     margin-top: 80px;
-
+    margin-bottom: 5em;
+    
     .jumbotron {
         background-color: inherit;
         color: white;
@@ -57,9 +58,11 @@
         }
     }
 
-    .nav-tabs {
-
+    .buttons{
+        // display: flex;
+        // flex-direction: row;
+        :first-child{
+            margin-right: 25px;
+        }
     }
-
-    margin-bottom: 5em;
 }
