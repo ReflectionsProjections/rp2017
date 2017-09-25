@@ -128,11 +128,20 @@ class Sponsors extends Component {
                     url: 'https://www.uber.com/'
                 },
                 {
-                    name: 'West Monrow',
+                    name: 'West Monroe',
                     img: '../assets/img/sponsors/jobfair/megabyte/westmonroe.jpg',
                     url: 'http://www.westmonroepartners.com/'
                 },
-
+                {
+                    name: 'Yelp',
+                    img: '../assets/img/sponsors/jobfair/megabyte/yelp.png',
+                    url: 'https://www.yelp.com/'
+                },
+                {
+                    name: 'Riverbed',
+                    img: '../assets/img/sponsors/jobfair/megabyte/riverbed.png',
+                    url: 'https://www.riverbed.com/'
+                },
                 // startups
 
                 {
@@ -154,6 +163,11 @@ class Sponsors extends Component {
                     name: 'Curalate',
                     img: '../assets/img/sponsors/startups/curalate.svg',
                     url: 'https://www.curalate.com/'
+                },
+                {
+                    name: 'Fornojo',
+                    img: '../assets/img/sponsors/startups/fornojo.png',
+                    url: 'http://fornojollc.com/'
                 },
                 {
                     name: 'Granular',
