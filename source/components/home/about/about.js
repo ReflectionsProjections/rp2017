@@ -26,7 +26,7 @@ class About extends Component {
                                 <span>Reflections | Projections is an annual technology conference organized and run by students
                                 at the University of Illinois at Urbana-Champaign, drawing students, speakers, and companies from around the world. 
                                 The week-long event features tech talks via speakers from across the industry and academia, two career fairs, and an array of workshops. 
-                                Put your wits to the test with our Artificial Intelligence programming competition, Mechmania, or our puzzle challenge Puzzlebang! 
+                                Put your wits to the test with our Artificial Intelligence programming competition, MechMania, or our puzzle challenge Puzzlebang! 
                                 <br /><br />
                                 Reflections | Projections is free and open to anyone regardless of age, major, or
                                 affiliation with the University of Illinois. Come join a discussion led by some of
@@ -48,9 +48,9 @@ class About extends Component {
                                 </Tab>
                                 <Tab eventKey={2} title="Mechmania">
                                 <span>
-                                    Mechmania is Reflection | Projection's 24 hour AI hackathon returning September 29th-30th, 2017 in 1404 Siebel. 
+                                    MechMania is Reflection | Projection's 24 hour AI hackathon returning September 29th-30th, 2017 in 1404 Siebel. 
                                     Compete in a battle of wits on a virtual battlefield! 
-                                    Mechmania is an overnight hack-a-thon for teams of up to four people. 
+                                    MechMania is an overnight hack-a-thon for teams of up to four people. 
                                     Participants have twenty-four hours to write an autonomous program that will play against other bots in an original video 
                                     game, which is revealed when the event begins at 8pm, September 29th, 2017. <br/><br/>
                                     <a href="https://acmrp.org/mechmania" className="anchor-look-like-normal">You can register here!</a>
