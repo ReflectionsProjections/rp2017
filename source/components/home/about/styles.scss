@@ -20,7 +20,7 @@
     }
 
     &__leftTabs, &__rightTabs {
-        a:not(.anchor-look-like-normal) {
+        a:not(.anchor-look-like-normal):not(.About__registerButton) {
             background-color: rgba(0,0,0,0) !important;
             border: none !important;
             padding: 1em 1em 1em 0em !important;
